@@ -61,11 +61,10 @@ input, select, button {
 }
 
 .menu{
-  width: 97.5%;
-  margin-top: -20px;
-  height: 60px;
-  background-color: #668284;
-  margin-bottom: 10px;
+  display: flex;
+  padding: 10px;
+  background-color: #FDAC53;
+  color: white;
 }
 
 .menu li a{

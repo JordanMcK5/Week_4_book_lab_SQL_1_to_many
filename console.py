@@ -16,13 +16,13 @@ author_repository.save(author2)
 
 author_repository.select_all()
 
-book_1 = Book("IT", author1, "horror", True)
+book_1 = Book("IT", author1, "Horror", True)
 book_repository.save(book_1)
 
 book_2 = Book("Less Than Zero", author2, "Americana", True)
 book_repository.save(book_2)
 
-book_3 = Book("The Shining", author1, "horror", True)
+book_3 = Book("The Shining", author1, "Psychological Thriller", True)
 book_repository.save(book_3)
 
 pdb.set_trace()

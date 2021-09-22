@@ -8,9 +8,9 @@
       <div class="title">
         <a href="/books/{{book.id}}">{{book.title}}</a>
       </div>
-      <div>
-        <a href="/books/{{book.id}}">{{book.genre}}</a>
-      </div>
+      <div class="genre">
+        {{book.genre}}
+        </div>
       <div class="buttons">
 
       <form class="delete-form" action="/books/{{book.id}}/delete" method="POST">
